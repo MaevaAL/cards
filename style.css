@@ -1,0 +1,105 @@
+/* RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* BACKGROUND*/
+
+.container {
+    background-color: var(--color1);
+    height: 20rem;
+
+}
+.container2 {
+    background-color: rgb(214, 214, 214);
+    height: 20rem;
+    width: 1536px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* TOP*/
+
+.top {
+    padding-top: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: lighter;
+}
+
+
+/* CARDS*/
+
+.box {
+    border-radius: 6px;
+    background-color: white;
+    width: 10.3rem;
+    height: 15rem;
+    position: relative;
+    top:-5.5rem;
+    text-align: center;
+
+}
+
+i {
+    color: rgb(206, 74, 195);
+    font-size: 4rem;
+    position: relative;
+    top:-1.5rem;
+
+}
+
+.btn {
+    background-color: rgb(6, 128, 42);
+    font-size: .70rem;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: .60rem;
+    width: 7rem;
+    position: relative;
+    top: -.60rem;
+    left: 1.6rem;
+}
+
+.box p {
+    position: relative;
+    top: -2rem;
+    margin: 0px;
+    padding-top: 1rem;
+}
+
+.prix {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.2rem;
+}
+
+.title {
+    font-size: .7rem;
+    padding-top: 1rem;
+}
+
+.price {
+    font-size: 3rem;
+    color: indigo;
+    margin: 0px;
+}
+
+.prix :nth-child(3) {
+    align-self: flex-end;
+}
